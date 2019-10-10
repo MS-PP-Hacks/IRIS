@@ -1,22 +1,87 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #a9d9e8;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+#uploadIcon, #searchIcon {
+    margin:5px 20px;
 }
+.Upload {
+    text-align: center;
+    
+}
+
+.drag-and-drop { 
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 500px;
+    /* padding: 20px; */
+}
+
+.imgPreview{
+    background-color:#fff;
+    text-align: center;
+    margin: auto;
+    margin-top:100px;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+    overflow: scroll;
+    img {
+        width: 500px;
+        height: 200px;
+    }
+     
+}
+
+.tagsInput {
+    background-color:#fff;
+    margin: auto;
+    width: 500px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
+}
+.tagsInput .react-tagsinput-tag {
+    
+    background-color: #549bba;
+    border: 1px solid #17a2b8;
+    color: #fff;
+    
+}
+#uploadTagsInput {
+    margin-top:20px;
+}
+.searchResultImg {
+    width:150px;
+    height:150px;
+    margin:5px;
+}
+
+#searchBtn, #uploadBtn {
+    background-color: #549bba;
+    margin: 10px;
+}
+
+#successModal {
+    text-align: center;
+}
+#successModal .btn {
+    margin-top:10px;
+}
+.wordContent {
+    
+    position: flex;
+    margin-top:100px;
+    color:#549bba;
+    font-size: 40px;
+}
+  
+ 
