@@ -1,13 +1,6 @@
 # IRIS
 Image Retrieval and Identification System
 
-## Inspiration
-## What it does
-## How we built it
-## Challenges we ran into
-## Accomplishments that we're proud of
-## What we learned
-## What's next for IRIS
 
 ## API Gateways 
 `Search` https://1vmtofqjz5.execute-api.us-east-1.amazonaws.com/default/queryES
